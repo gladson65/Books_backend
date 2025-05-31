@@ -24,6 +24,7 @@ dotenv.config()
 // mongodb connection url
 const atlasUrl = process.env.MONGODB_URL;
 // mongodb://localhost:27017/
+// MONGODB_URL=mongodb+srv://gladson:Zoomg3xn@claustrophobia.1cfgq.mongodb.net/
 
 // mongodb connection
 mongoose.connect(atlasUrl, {
